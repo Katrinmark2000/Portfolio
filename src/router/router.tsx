@@ -2,8 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import { AboutPage } from "../pages/AboutPage/AboutPage";
 import { PortfolioPage } from "../pages/PortfolioPage/PortfolioPage";
 import { ContactPage } from "../pages/ContactPage/ContactPage";
-import  {HomePage} from "../pages/HomePage/HomePage";
+import { HomePage } from "../pages/HomePage/HomePage";
 import App from "../app/app";
+import { ResumePage } from "../pages/ResumePage/ResumePage";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: 'portfolio',
         element: <PortfolioPage />,
+      },
+      {
+        path: 'rezume',
+        element: <ResumePage />,
       },
       {
         path: 'contacts',
