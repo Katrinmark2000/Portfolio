@@ -1,0 +1,30 @@
+.button {
+    height: 48px;
+    width: 100%;
+    padding: 11px 0;
+	font-weight: 400;
+	font-size: 16px;
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.primary {
+background-color: #ffffff;
+color: var(--font-color-black);
+transition: all 0.3s ease;
+
+&:hover {
+    background-color: var(--accent-color);
+}
+}
+
+.shaded {
+    background-color: var(--font-color-black);
+    color: #ffffff
+}

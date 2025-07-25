@@ -13,11 +13,8 @@ export const ParticlesBackground = () => {
       id="tsparticles"
       init={particlesInit}
       options={{
-        background: {
-          color: "#1b1621",
-        },
         particles: {
-          color: { value: "#9d4edd" },
+          color: { value: "#0000001a" },
           move: { enable: true, speed: 0.5 },
           number: { value: 15 },
           opacity: { value: 0.2 },

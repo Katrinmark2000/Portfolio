@@ -1,5 +1,5 @@
 import styles from './app.module.scss';
-import { AppHeader } from '../components/app-header/app-header';
+import { AppHeader } from '../components/appHeader/app-header';
 import { Outlet } from 'react-router-dom';
 import  {ParticlesBackground} from '../components/particlesBackground/ParticlesBackground';
 

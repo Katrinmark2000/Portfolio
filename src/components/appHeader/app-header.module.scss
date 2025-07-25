@@ -1,0 +1,82 @@
+  .header {
+    border-color: #E0E0E0;
+    position: relative;
+    padding: 1.5rem 2rem;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--accent-color);
+    font-family: var(--font-open-sans);
+    position: sticky
+  }
+
+  .navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+  
+.logoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  text-decoration: none;
+  }
+
+  .logoTextTitle{
+    color: var(--font-color-black);
+    font-size: 16px;
+  }
+
+  .logoTextDescription {
+    font-size: 10.5px;
+    color: var(--font-additional-color-gray);
+  }
+  
+  .navLink {
+    color: var(--font-additional-color-gray);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    position: relative;
+    transition: all 0.3s ease;
+  
+  
+    &:hover {
+      color: var(--font-color-black);
+    }
+  
+    &.active {
+      color: var(--font-color-black);
+    }
+  }
+
+  .socialIcons {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: auto; // Выравниваем иконки вправо
+    padding-left: 2rem; //отступ от остальных пунктов меню
+  
+    a, button{
+      color: var(--font-color-black);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  //кнопка смены темы
+  .themeButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+  }
