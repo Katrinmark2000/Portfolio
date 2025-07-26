@@ -1,0 +1,36 @@
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 0;
+ 
+}
+
+.fullBackground {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: #ececf04d;
+}
+
+.title {
+  padding-top: 20px;
+    font-size: 42px;
+    color: var(--font-color-black);
+    font-family: var(--font-open-sans);
+    font-weight: 300;
+  }
+
+  .text {
+    color: var(--font-additional-color-gray);
+  font-size: 18px;
+  line-height: 1.65;
+  font-family: var(--font-open-inter);
+  text-align: center;
+  }
+
+  .textBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }

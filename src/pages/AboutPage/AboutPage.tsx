@@ -3,12 +3,14 @@ import { MainImage } from '../../shared/ui/mainImage/mainImage';
 import myPhoto from '../../assets/images/myPhoto.jpg'
 import { Button } from '../../shared/ui/button/button';
 import { PiArrowRightLight, PiDownloadSimpleLight} from "react-icons/pi";
+import { LearningJourney } from '../../widgets/learningJourneySection/learningJourneySection';
 
 export const AboutPage = () => {
   const pdfUrl = '/public/rezume.pdf';
   const pdfFileName = 'rezume.pdf';
 
   return (
+    <>
     <div className={styles.about}>
       <div className={styles.textBlock}>
       <h2 className={styles.title}>
@@ -40,5 +42,7 @@ export const AboutPage = () => {
           <MainImage src={myPhoto}/>
         </div>
     </div>
+    <LearningJourney/>
+    </>
   );
 };

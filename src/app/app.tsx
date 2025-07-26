@@ -1,7 +1,7 @@
 import styles from './app.module.scss';
-import { AppHeader } from '../components/appHeader/app-header';
+import { AppHeader } from '../widgets/appHeader/app-header';
 import { Outlet } from 'react-router-dom';
-import  {ParticlesBackground} from '../components/particlesBackground/ParticlesBackground';
+import  {ParticlesBackground} from '../features/particlesBackground/ParticlesBackground';
 
 const App = () => {
   return (

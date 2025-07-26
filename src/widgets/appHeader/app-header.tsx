@@ -1,7 +1,6 @@
 import styles from './app-header.module.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { PiTelegramLogoLight, PiMoonLight, PiGithubLogoLight, PiStarLight, PiLineVerticalLight} from "react-icons/pi";
-import clsx from 'clsx';
 
 export const AppHeader = () => {
   const getNavLinkClass = ({ isActive }: { isActive: boolean }) => 
